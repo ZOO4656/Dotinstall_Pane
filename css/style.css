@@ -17,6 +17,21 @@ body {
 	background-size: cover;
 }
 
+.section-title {
+	text-align: center; /*文字の配置場所*/
+	text-weight: normal;
+	font-size:24px;
+}
+
+	/*このafterはどういうこと?*/
+.section-title::after{
+	content: attr(data-subtitle);
+	display: block;
+	font-size:16px;
+	color: #aaa;
+	paddint-top:10px;
+}
+
 /*header*/
 
 header h1 {
@@ -56,3 +71,8 @@ header img {
 .btn:hover {
 	opacity: 1.0;
 }
+
+/*features*/
+
+
+

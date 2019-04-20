@@ -73,6 +73,24 @@ header img {
 }
 
 /*features*/
+ .feature h1 {
+ 	font-weight: normal;
+ 	font-size: 18px;
+ }
 
+.feature .desc {
+	width: 360px;
+}
 
+/*class名:nth-of-type(odd)=Classの奇数番目の要素に対して適用する*/
+.feature:nth-of-type(odd) .desc {
+	float:right;
+	padding-left:40px;
+}
+
+/*class名:nth-of-type(even)=Classの偶数番目の要素に対して適用する*/
+.feature:nth-of-type(even) .desc {
+	float:left;
+	padding-right:40px;
+}
 

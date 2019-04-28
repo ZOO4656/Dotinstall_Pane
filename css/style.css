@@ -162,4 +162,16 @@ footer {
 	color: #aaa;
 }
 
+#scroll_top {
+	font-size: 15px;
+	background:#f39800;
+	color:#fff;
+	border-radius: 4px;
+	display:inline-block;
+	margin:10px;
+	opacity:0.9;
+	cursor: pointer;
+	padding:10px;
+}
+
 

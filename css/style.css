@@ -85,10 +85,6 @@
 		margin-bottom: 50px;
 	}
 
-	header .container {
-		position: relative;
-	}
-
 	header img {
 		position: absolute;
 		bottom: 0;
@@ -208,6 +204,11 @@
 		margin: 0;
 	}
 
+	.top-container {
+		width: 820px;
+		margin: 0 auto;
+		padding: 60px 0;
+	}
 	.container {
 		width: 820px;
 		margin: 0 auto;
@@ -267,7 +268,7 @@
 		margin-bottom: 50px;
 	}
 
-	header .container {
+	header .top-container {
 		position: relative;
 	}
 

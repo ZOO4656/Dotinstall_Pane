@@ -335,20 +335,20 @@ video {
 /*=======================================================================*/
 
 /*画面サイズ400-799まで適用*/
-@media screen and (min-width: 400px) and (max-width: 799px) {
+@media screen and (min-width: 0px) and (max-width: 799px) {
 	body {
 		font-size: 16px;
 		font-family: Verdane, sans-serit;
 		color: #333;
 		margin: 0;
-		width: 200%;
+		width: 100%;
 		}
 
 	.top-container {
-		width: 820px;
+		width: 100%;
 		margin: 0 auto;
 		padding: 45px 0 60px;
-		position: relative;
+	    text-align: center;
 	}
 
 	.top-container h1 {
@@ -360,9 +360,9 @@ video {
 	}
 
 	.container {
-		width: 820px;
+		width: 100%;
 		margin: 0 auto;
-		padding: 60px 0;
+		padding: 45px 0;
 		text-align: center;
 	}
 
@@ -375,7 +375,7 @@ video {
 	.section-title {
 		text-align: center; /*文字の配置場所*/
 		text-weight: normal;
-		font-size: 40px;
+		font-size: 24px;
 		margin-bottom: 35px;
 		margin-top: 0;
 	}
@@ -384,23 +384,23 @@ video {
 	.section-title::after{
 		content: attr(data-subtitle);
 		display: block;
-		font-size: 33px;
+		font-size: 19px;
 		color: #aaa;
 		padding-top: 10px;
 	}
 
 	.btn {
 		display: inline-block; /*参考サイトhttps://saruwakakun.com/html-css/basic/display*/
-	    width: 335px;
-	    height: 50px;
-	    font-size: 25px;
-	    background: #fff;
-	    color: #f39800;
-	    text-align: center;
-	    text-decoration: none;
-	    padding: 8px 0;
-	    border-radius: 5px;
-	    opacity: 0.9;
+display: inline-block;
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    background: #fff;
+    color: #f39800;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0.9;
 	}
 
 	.btn:hover {
@@ -425,6 +425,7 @@ video {
 		position: absolute;
 		bottom: 0;
 		right: 0;
+		display: none; スマホviewでは要素が多いため削除
 	}
 
 	.feature-img {
@@ -435,7 +436,7 @@ video {
 	/*features*/
 	 .feature h1 {
 	 	font-weight: normal;
-	 	font-size: 40px;
+	 	font-size: 30px;
 	 }
 
 	.feature .desc {
@@ -443,7 +444,7 @@ video {
 	}
 
 	.feature .desc p {
-		font-size: 28px;
+		font-size: 16px;
 		text-align: left;
 	}
 
@@ -470,11 +471,9 @@ video {
 	.voice {
 		/*width: 250px;*/
 		background: #fff;
-		position: relative;
 		box-sizing:  border-box;
-		padding: 60px 40px 25px;
+		padding: 45px 35px 25px;
 		display: flex;
-	    display: flex;
 	    margin: 0 4% 30px;
 	}
 
@@ -490,12 +489,11 @@ video {
 
 	.voice h1 {
 		text-align: center;
-		font-size: 23px;
+		font-size: 19px;
 		font-weight: normal;
 	}
 
 	.voice p {
-		font-size: x-large;
     	margin: 0 6px;
     	text-align: left;
 	}
@@ -513,13 +511,13 @@ video {
 	/*footer*/
 
 	footer {
-		font-size: 28px;
+		font-size: 23px;
 		text-align: center;
 		color: #aaa;
 	}
 
 	#scroll_top {
-		font-size: 30px;
+		font-size: 16px;
 		background:#f39800;
 		color: #fff;
 		border-radius: 4px;
@@ -529,7 +527,7 @@ video {
 		cursor: pointer;
 		padding: 10px;
 	    position: fixed;
-    	bottom: 10px;
+    	bottom: 0px;
 	}
 }
 

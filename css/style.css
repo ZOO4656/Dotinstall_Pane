@@ -391,16 +391,16 @@ video {
 
 	.btn {
 		display: inline-block; /*参考サイトhttps://saruwakakun.com/html-css/basic/display*/
-display: inline-block;
-    width: 300px;
-    height: 40px;
-    font-size: 25px;
-    background: #fff;
-    color: #f39800;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    opacity: 0.9;
+		display: inline-block;
+	    width: 300px;
+	    height: 40px;
+	    font-size: 25px;
+	    background: #fff;
+	    color: #f39800;
+	    text-align: center;
+	    text-decoration: none;
+	    border-radius: 5px;
+	    opacity: 0.9;
 	}
 
 	.btn:hover {
@@ -454,7 +454,8 @@ display: inline-block;
 
 
 	.feature {
-		overflow: hidden; 要素がはみ出た場合、収まらない部分は非表示にする。
+		overflow: hidden; 
+		/*要素がはみ出た場合、収まらない部分は非表示にする。*/
 	}
 
 	/*voices*/
@@ -646,7 +647,8 @@ display: inline-block;
 
 
 	.feature {
-		overflow: hidden; 要素がはみ出た場合、収まらない部分は非表示にする。
+		overflow: hidden;
+		/*要素がはみ出た場合、収まらない部分は非表示にする。*/
 	}
 
 	/*voices*/
@@ -670,12 +672,16 @@ display: inline-block;
 
 	.voice img {
 		border-radius: 50%;
-		border: 10px solid #fff; 周りを10pxの線種一本線で白色の線を引く
+		border: 10px solid #fff;
 		position: absolute;
 		left: 0;
 		right: 0;
 		margin: 0 auto;
 		top: -55px;
+	}
+
+	.voice-profile {
+		text-align: center;
 	}
 
 	.voice h1 {
